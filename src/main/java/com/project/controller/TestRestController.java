@@ -24,8 +24,12 @@ public class TestRestController {
 				+ " you are invited to my first Rest app!! "
 				+ " and your job here is  " + myJob
 				+ " your base location is " + city;
-		
+
+
+
 		return new ResponseEntity<String>(msg,HttpStatus.OK);
+
+
 		
 		
 	}
