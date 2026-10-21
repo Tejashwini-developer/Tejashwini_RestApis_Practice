@@ -26,7 +26,6 @@ public class TestRestController {
 				+ " your base location is " + city;
 
 
-
 		return new ResponseEntity<String>(msg,HttpStatus.OK);
 
 
